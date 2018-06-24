@@ -1,0 +1,45 @@
+{
+  "name": "grab_your_time",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "chart.js": "^2.7.2",
+    "dateformat": "^3.0.3",
+    "nodemon": "^1.17.3",
+    "rc-time-picker": "^3.3.1",
+    "react-big-calendar": "^0.19.0",
+    "react-bootstrap": "^0.32.1",
+    "react-chartjs-2": "^2.7.2",
+    "react-datepicker": "^1.4.1",
+    "react-router-dom": "^4.3.0-rc.2",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "startServer": "nodemon ./src/server/index.js --exec babel-node --presets es2015,stage-2",
+    "build": "react-scripts build",
+    "test": "mocha --compilers js:babel-core/register",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.1.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mocha": "^5.1.1",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.14",
+    "namor": "^1.0.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-table": "^6.8.2",
+    "sweetalert": "^2.1.0"
+  }
+}
